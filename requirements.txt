@@ -1,0 +1,34 @@
+# Core Logic
+aiohttp
+PyYAML
+openai
+pydub
+sounddevice
+soundfile
+whisper
+openai-whisper
+numpy
+
+
+# STT dan TTS
+SpeechRecognition
+ffmpeg-python
+
+# Audio playback
+playsound==1.2.2  # opsional, kalau gak pakai pydub
+simpleaudio        # alternatif untuk pydub
+
+# GUI
+PyQt5
+qasync
+
+# Logger (opsional jika kamu pakai file log sendiri)
+loguru
+
+# Ollama (gunakan manual install di sistem)
+llama-cpp-python
+# pip tidak bisa install ollama, install di OS:
+# https://ollama.com/download
+
+# Jika memakai model Whisper lokal
+torch

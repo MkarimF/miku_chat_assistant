@@ -1,0 +1,59 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Env & Build
+.env
+.venv/
+env/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Log files
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# VoiceVox or temp files
+voicevox-engine/user.dict_csv*
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.temp
+*.tmp
+
+# Ollama or model cache
+ollama.db
+ollama_models/
+models/*.bin
+models/*.gguf
+
+# Output / debug
+debug_output.txt
+prompt_log.txt
+
+# System config or token
+config/config.yml
+config/*.local.yml
+
+# PyInstaller or compiled app
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache
+*.cache/
+.cache/

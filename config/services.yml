@@ -1,0 +1,4 @@
+services:
+  youtube:
+    base_url: "https://www.youtube.com/results?search_query="
+  tasks_db: "data/tasks.json"

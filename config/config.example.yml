@@ -1,0 +1,14 @@
+openai:
+  api_key: #<isi pake api key kamu "" jangan lupa pake tanda kutip>
+
+llama3:
+  model_path: "./models/mistral-7b-instruct-v0.2.Q4_K_M.gguf" #disini kamu bisa ganti pake model yang kamu mau, tapi kudu ada di folder models
+
+voicevox:
+  host: "localhost" # bisa juga kalo kamu punya service voicevox online tinggal masukin sini aja kaga usah pake port tinggal nonaktivin
+  port: 50021
+  speaker_id: #<cari sendiri, ini pake integer>  # Default Miku-style voice
+
+mode:
+  chat_engine: ""  # auto / online / offline
+  stt_engine: ""
